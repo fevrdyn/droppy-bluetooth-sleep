@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "droppykit": {
+      "command": "/Users/emiliovela/droppykit/Scripts/droppykit",
+      "args": [
+        "mcp",
+        "--package",
+        "/Users/emiliovela/Desktop/bluetoothsleep"
+      ]
+    }
+  }
+}
