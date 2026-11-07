@@ -1,42 +1,86 @@
 {
   "fill-specializations" : [
     {
-      "value" : {
-        "linear-gradient" : [
-          "display-p3:0.56863,0.76863,1.00000,1.00000",
-          "srgb:0.14510,0.50196,1.00000,1.00000"
-        ]
-      }
+      "value" : "system-dark"
     },
     {
       "appearance" : "dark",
-      "value" : {
-        "linear-gradient" : [
-          "display-p3:0.20870,0.20870,0.20870,1.00000",
-          "display-p3:0.08561,0.08561,0.08561,1.00000"
-        ]
-      }
+      "value" : "system-dark"
     }
   ],
   "groups" : [
     {
       "layers" : [
         {
-          "hidden" : false,
-          "image-name" : "mark.png",
-          "name" : "placeholder",
+          "fill" : {
+            "solid" : "extended-srgb:0.00000,0.53333,1.00000,1.00000"
+          },
+          "image-name" : "moon3.svg",
+          "name" : "moon3",
           "position" : {
-            "scale" : 0.8,
-            "translation-in-points" : [ 0, 0 ]
+            "scale" : 23.74,
+            "translation-in-points" : [
+              -81,
+              0
+            ]
+          }
+        },
+        {
+          "fill" : {
+            "solid" : "extended-srgb:0.00000,0.53333,1.00000,1.00000"
+          },
+          "glass" : true,
+          "image-name" : "bluetooth.svg",
+          "name" : "bluetooth",
+          "position" : {
+            "scale" : 14.59,
+            "translation-in-points" : [
+              150,
+              0
+            ]
+          }
+        },
+        {
+          "fill-specializations" : [
+            {
+              "value" : "system-light"
+            },
+            {
+              "appearance" : "dark",
+              "value" : "system-light"
+            },
+            {
+              "appearance" : "tinted",
+              "value" : "automatic"
+            }
+          ],
+          "glass" : true,
+          "hidden" : true,
+          "image-name" : "book bookmark.svg",
+          "name" : "book bookmark",
+          "position" : {
+            "scale" : 24.79,
+            "translation-in-points" : [
+              0,
+              0
+            ]
           }
         }
       ],
-      "shadow" : { "kind" : "neutral", "opacity" : 0.5 },
-      "translucency" : { "enabled" : true, "value" : 0.5 }
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : false,
+        "value" : 0.5
+      }
     }
   ],
   "supported-platforms" : {
-    "circles" : [ "watchOS" ],
+    "circles" : [
+      "watchOS"
+    ],
     "squares" : "shared"
   }
 }
