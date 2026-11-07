@@ -2,9 +2,9 @@
   "id": "bluetoothsleep",
   "name": "Bluetooth on sleep",
   "version": "1.0.0",
-  "summary": "Turns Bluetooth off when lid closes",
-  "description": "Prevents Bluetooth from hijacking your headphones when your Mac is in your backpack.",
-  "category": "Utility",
+  "summary": "Turns Bluetooth off during sleep, back on at wake",
+  "description": "Switches Bluetooth off while your Mac sleeps, so headphones in a bag stop connecting to it, and back on when it wakes. If Bluetooth was already off before sleep it stays off, and it only switches back on when this droplet was the one that turned it off.",
+  "category": "Productivity",
   "kit": {
     "abi": 1,
     "minAPI": "1.9.0"
@@ -20,12 +20,12 @@
     "kind": "community",
     "url": "https://github.com/fevrdyn",
     "avatar": "Creator.png",
-    "gitlab": "your-gitlab-username"
+    "gitlab": "fevrdyn"
   },
   "source": {
     "repository": "https://github.com/fevrdyn/droppy-bluetooth-sleep",
     "license": "MIT"
   },
   "screenshots": [],
-  "keywords": []
+  "keywords": ["bluetooth", "sleep", "wake", "headphones", "audio"]
 }
